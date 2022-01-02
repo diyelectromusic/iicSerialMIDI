@@ -3,7 +3,7 @@
 //    diyelectromusic.wordpress.com
 //
 //  DFRobot Gravity IIC to Dual UART Serial MIDI Transport Example
-//  
+//  https://diyelectromusic.wordpress.com/2022/01/02/arduino-i2c-midi-interface/
 //
       MIT License
       
