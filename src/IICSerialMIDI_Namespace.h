@@ -1,6 +1,5 @@
-MIT License
-
-Copyright (c) 2022 Kevin (@diyelecromusic)
+/*
+ Copyright (c) 2022 Kevin (@diyelectromusic)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +18,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ */
+
+#pragma once
+
+#define IICSerialMIDI_NAMESPACE iicSerialMidi
+#define BEGIN_IICSerialMIDI_NAMESPACE \
+    namespace IICSerialMIDI_NAMESPACE \
+    {
+#define END_IICSerialMIDI_NAMESPACE }
+
+#define USING_NAMESPACE_IICSerialMIDI using namespace IICSerialMIDI_NAMESPACE;
+
+BEGIN_IICSerialMIDI_NAMESPACE
+
+END_IICSerialMIDI_NAMESPACE

@@ -1,0 +1,35 @@
+#######################################
+# Syntax Coloring Map For iicSerialMIDI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+IICSerialMIDI	KEYWORD1
+IICserialMIDI.h	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin				KEYWORD2
+beginTransmission	KEYWORD2
+write				KEYWORD2
+endTransmission		KEYWORD2
+read				KEYWORD2
+available			KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+IICSERIAL_MIDI_CREATE_INSTANCE			LITERAL1
+IICSERIAL_MIDI_CREATE_CUSTOM_INSTANCE	LITERAL1
+
+# Namespace, considering it as a literal
+iicSerialMIDI	LITERAL1
+
